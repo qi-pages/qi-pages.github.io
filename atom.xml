@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>漆大康</title>
   
-  <subtitle>不积硅步，无以至千里</subtitle>
+  <subtitle>不积跬步，无以至千里</subtitle>
   <link href="https://qi-pages.github.io/atom.xml" rel="self"/>
   
   <link href="https://qi-pages.github.io/"/>
-  <updated>2021-07-08T16:57:17.449Z</updated>
+  <updated>2021-07-11T17:39:07.077Z</updated>
   <id>https://qi-pages.github.io/</id>
   
   <author>
@@ -17,34 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>categories</title>
-    <link href="https://qi-pages.github.io/2021/07/09/categories/"/>
-    <id>https://qi-pages.github.io/2021/07/09/categories/</id>
-    <published>2021-07-08T16:56:50.000Z</published>
-    <updated>2021-07-08T16:57:17.449Z</updated>
+    <title>00开发周志.mk</title>
+    <link href="https://qi-pages.github.io/2021/07/12/00%E5%BC%80%E5%8F%91%E5%91%A8%E5%BF%97-mk/"/>
+    <id>https://qi-pages.github.io/2021/07/12/00%E5%BC%80%E5%8F%91%E5%91%A8%E5%BF%97-mk/</id>
+    <published>2021-07-11T17:31:51.000Z</published>
+    <updated>2021-07-11T17:39:07.077Z</updated>
     
     
     
     
-    <category term="测试" scheme="https://qi-pages.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="从零开始的操作系统" scheme="https://qi-pages.github.io/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://qi-pages.github.io/2021/07/08/hello-world/"/>
-    <id>https://qi-pages.github.io/2021/07/08/hello-world/</id>
-    <published>2021-07-08T11:20:17.706Z</published>
-    <updated>2021-07-08T12:00:00.000Z</updated>
+    <title>test</title>
+    <link href="https://qi-pages.github.io/2021/07/09/test/"/>
+    <id>https://qi-pages.github.io/2021/07/09/test/</id>
+    <published>2021-07-08T17:52:46.000Z</published>
+    <updated>2021-07-08T17:52:46.245Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello<br>##hello</p><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
     
     
     
@@ -52,14 +45,16 @@
   </entry>
   
   <entry>
-    <title>My First Post, TEST</title>
-    <link href="https://qi-pages.github.io/2021/07/07/My-First-Post/"/>
-    <id>https://qi-pages.github.io/2021/07/07/My-First-Post/</id>
-    <published>2021-07-06T18:36:47.000Z</published>
-    <updated>2021-07-07T04:46:18.381Z</updated>
+    <title>test</title>
+    <link href="https://qi-pages.github.io/2021/07/09/OS/test/"/>
+    <id>https://qi-pages.github.io/2021/07/09/OS/test/</id>
+    <published>2021-07-08T17:52:46.000Z</published>
+    <updated>2021-07-09T16:19:31.990Z</updated>
     
     
     
+    
+    <category term="OS" scheme="https://qi-pages.github.io/categories/OS/"/>
     
     
   </entry>
