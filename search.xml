@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>strerror出现段错误</title>
+    <url>/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<p>​    问题现象：调用strerror，会导致程序运行出现段错误</p>
+<p>​    解决方法：加上头文件&lt;string.h&gt;</p>
+<p>​    问题原因：（挖坑待填）</p>
+]]></content>
+      <categories>
+        <category>Linux&amp;C</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+        <tag>C</tag>
+        <tag>C常见bug</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>00开发周志</title>
     <url>/2021/07/12/00%E5%BC%80%E5%8F%91%E5%91%A8%E5%BF%97/</url>
     <content><![CDATA[]]></content>
@@ -23,21 +39,5 @@
       <categories>
         <category>OS</category>
       </categories>
-  </entry>
-  <entry>
-    <title>strerror出现段错误</title>
-    <url>/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/</url>
-    <content><![CDATA[<p>​    问题现象：调用strerror，会导致程序运行出现段错误</p>
-<p>​    解决方法：加上头文件&lt;string.h&gt;</p>
-<p>​    问题原因：（挖坑待填）</p>
-]]></content>
-      <categories>
-        <category>Linux&amp;C</category>
-      </categories>
-      <tags>
-        <tag>linux</tag>
-        <tag>C</tag>
-        <tag>C常见bug</tag>
-      </tags>
   </entry>
 </search>
