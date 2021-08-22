@@ -6,7 +6,7 @@
   <link href="https://qi-pages.github.io/atom.xml" rel="self"/>
   
   <link href="https://qi-pages.github.io/"/>
-  <updated>2021-08-22T14:53:58.286Z</updated>
+  <updated>2021-08-22T15:38:48.966Z</updated>
   <id>https://qi-pages.github.io/</id>
   
   <author>
@@ -21,15 +21,29 @@
     <link href="https://qi-pages.github.io/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/"/>
     <id>https://qi-pages.github.io/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/</id>
     <published>2021-08-22T14:50:05.000Z</published>
-    <updated>2021-08-22T14:53:58.286Z</updated>
+    <updated>2021-08-22T15:38:48.966Z</updated>
+    
+    <content type="html"><![CDATA[<p>​    问题现象：调用strerror，会导致程序运行出现段错误</p><p>​    解决方法：加上头文件&lt;string.h&gt;</p><p>​    问题原因：（挖坑待填）</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;​    问题现象：调用strerror，会导致程序运行出现段错误&lt;/p&gt;
+&lt;p&gt;​    解决方法：加上头文件&amp;lt;string.h&amp;gt;&lt;/p&gt;
+&lt;p&gt;​    问题原因：（挖坑待填）&lt;/p&gt;
+</summary>
+      
     
     
     
+    <category term="Linux&amp;C" scheme="https://qi-pages.github.io/categories/Linux-C/"/>
     
-    <category term="Linux C" scheme="https://qi-pages.github.io/categories/Linux-C/"/>
     
+    <category term="linux" scheme="https://qi-pages.github.io/tags/linux/"/>
     
-    <category term="Linux C" scheme="https://qi-pages.github.io/tags/Linux-C/"/>
+    <category term="C" scheme="https://qi-pages.github.io/tags/C/"/>
+    
+    <category term="C常见bug" scheme="https://qi-pages.github.io/tags/C%E5%B8%B8%E8%A7%81bug/"/>
     
   </entry>
   
