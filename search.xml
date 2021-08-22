@@ -7,6 +7,9 @@
       <categories>
         <category>从零开始的操作系统</category>
       </categories>
+      <tags>
+        <tag>OS</tag>
+      </tags>
   </entry>
   <entry>
     <title>test</title>
@@ -20,5 +23,16 @@
       <categories>
         <category>OS</category>
       </categories>
+  </entry>
+  <entry>
+    <title>strerror出现段错误</title>
+    <url>/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Linux C</category>
+      </categories>
+      <tags>
+        <tag>Linux C</tag>
+      </tags>
   </entry>
 </search>
