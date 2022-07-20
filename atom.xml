@@ -6,7 +6,7 @@
   <link href="https://qi-pages.github.io/atom.xml" rel="self"/>
   
   <link href="https://qi-pages.github.io/"/>
-  <updated>2021-08-22T15:38:48.966Z</updated>
+  <updated>2022-07-20T17:20:29.767Z</updated>
   <id>https://qi-pages.github.io/</id>
   
   <author>
@@ -17,77 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>strerror出现段错误</title>
-    <link href="https://qi-pages.github.io/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/"/>
-    <id>https://qi-pages.github.io/2021/08/22/strerror%E5%87%BA%E7%8E%B0%E6%AE%B5%E9%94%99%E8%AF%AF/</id>
-    <published>2021-08-22T14:50:05.000Z</published>
-    <updated>2021-08-22T15:38:48.966Z</updated>
+    <title>算法（一）：时间复杂度</title>
+    <link href="https://qi-pages.github.io/2022/07/21/algorithm/%E7%AE%97%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E7%AE%80%E4%BB%8B/"/>
+    <id>https://qi-pages.github.io/2022/07/21/algorithm/%E7%AE%97%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E7%AE%80%E4%BB%8B/</id>
+    <published>2022-07-20T16:36:56.000Z</published>
+    <updated>2022-07-20T17:20:29.767Z</updated>
     
-    <content type="html"><![CDATA[<p>​    问题现象：调用strerror，会导致程序运行出现段错误</p><p>​    解决方法：加上头文件&lt;string.h&gt;</p><p>​    问题原因：（挖坑待填）</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="解释"><a href="#解释" class="headerlink" title="解释"></a>解释</h2><p>描述计算机运行算法所需时间的一个函数，使用算法中基本操作执行的次数来度量。一般使用使得基本操作执行次数最多的输入来计算时间复杂度。</p><h2 id="计算方法"><a href="#计算方法" class="headerlink" title="计算方法"></a>计算方法</h2><p>第一步：找出基本操作，确定规模n；<br>第二步：计算出n的函数f(n)。<br>第三步：找到增长最快的项，去掉杂项，得到时间复杂度T(n)。</p><h2 id="example"><a href="#example" class="headerlink" title="example"></a>example</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">void fun(int n)</span><br><span class="line">&#123;</span><br><span class="line">int i = 1, j = 100;</span><br><span class="line">while(i&lt;n)</span><br><span class="line">&#123;</span><br><span class="line">++j;</span><br><span class="line">i+=2;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol><li><em>大多数情况下取最深层循环内的语句操作作为基本操作</em>，示例1中 <code>++j;</code> 与 <code>i+=2;</code> 这两行都可以作为基本操作。由循环条件 <code>i&lt;n</code> 可知，循环次数与 <em>n</em> 有关，于是规模为<em>n</em>。</li><li>因为循环的结束与 <em>i</em> 有关， <em>i</em> 的初值为1，每次自增2，假设 <em>i</em> 自增 <em>m</em> 次后循环结束，则 <em>i</em> 最后的值为 <em>1+2m</em>, 因此有 <em>1+2m &gt; n</em>。为了方便表述，我们假设一个常数 <em>K</em> ，且 <em>1+2m+K=n</em> 刚好成立，则 <em>m=n/2-(1+K)/2</em>  。</li><li>其中增长最快的项为 <em>n/2</em> ，即时间复杂度为T(n)=O(n)。</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;​    问题现象：调用strerror，会导致程序运行出现段错误&lt;/p&gt;
-&lt;p&gt;​    解决方法：加上头文件&amp;lt;string.h&amp;gt;&lt;/p&gt;
-&lt;p&gt;​    问题原因：（挖坑待填）&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;解释&quot;&gt;&lt;a href=&quot;#解释&quot; class=&quot;headerlink&quot; title=&quot;解释&quot;&gt;&lt;/a&gt;解释&lt;/h2&gt;&lt;p&gt;描述计算机运行算法所需时间的一个函数，使用算法中基本操作执行的次数来度量。一般使用使得基本操作执行次数最多的输入来计算时间复杂度。&lt;/p&gt;
 </summary>
       
     
     
     
-    <category term="Linux&amp;C" scheme="https://qi-pages.github.io/categories/Linux-C/"/>
-    
-    
-    <category term="linux" scheme="https://qi-pages.github.io/tags/linux/"/>
-    
-    <category term="C" scheme="https://qi-pages.github.io/tags/C/"/>
-    
-    <category term="C常见bug" scheme="https://qi-pages.github.io/tags/C%E5%B8%B8%E8%A7%81bug/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>00开发周志</title>
-    <link href="https://qi-pages.github.io/2021/07/12/00%E5%BC%80%E5%8F%91%E5%91%A8%E5%BF%97/"/>
-    <id>https://qi-pages.github.io/2021/07/12/00%E5%BC%80%E5%8F%91%E5%91%A8%E5%BF%97/</id>
-    <published>2021-07-11T17:31:51.000Z</published>
-    <updated>2021-08-22T14:55:06.436Z</updated>
-    
-    
-    
-    
-    <category term="从零开始的操作系统" scheme="https://qi-pages.github.io/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    
-    
-    <category term="OS" scheme="https://qi-pages.github.io/tags/OS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://qi-pages.github.io/2021/07/09/test/"/>
-    <id>https://qi-pages.github.io/2021/07/09/test/</id>
-    <published>2021-07-08T17:52:46.000Z</published>
-    <updated>2021-07-08T17:52:46.245Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://qi-pages.github.io/2021/07/09/OS/test/"/>
-    <id>https://qi-pages.github.io/2021/07/09/OS/test/</id>
-    <published>2021-07-08T17:52:46.000Z</published>
-    <updated>2021-07-09T16:19:31.990Z</updated>
-    
-    
-    
-    
-    <category term="OS" scheme="https://qi-pages.github.io/categories/OS/"/>
+    <category term="算法" scheme="https://qi-pages.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
   </entry>
